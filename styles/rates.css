@@ -1,0 +1,151 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Sans-Serif;
+}
+.header {
+  background-color: #30B7D6;
+  width:100%;
+  height:200px;
+  display:inline-block;
+}
+.margins {
+  font-size: 50px;
+  color:white;
+  margin-left:200px;
+  margin-top:35px;
+}
+.italics {
+  font-size: 22px;
+  font-style:italic;
+  color:white;
+  margin-left:200px;
+  width:280px;
+  overflow:hidden;
+  font-weight:lighter;
+}
+.margins + .italics {
+  margin-top:8px;
+}
+.column {
+  width:100%;
+  height: 100vh;
+  margin-top:-270px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+}
+.column-1,
+.column-2,
+.column-3 {
+  width: 300px;
+  height: 320px;
+  background:#269BB7;
+  margin:15px;
+  padding:5px;
+  color:white;
+  text-align:center;
+  border-radius:20px;
+}
+h2 {
+  color:white;
+  letter-spacing:2px;
+  margin: 0 0 .6rem 0;
+  margin:35px;
+  border-style:solid;
+  border-bottom: line;
+  border-top: none;
+  border-left:none;
+  border-right:none;
+}
+.price{
+  font-weight:bold;
+  color:#393939;
+  margin-top:10px;
+}
+.column-1:hover,
+.column-2:hover,
+.column-3:hover {
+  background-color:#ECEDED;
+}
+.column-1 p,
+.column-2 p,
+.column-3 p {
+  line-height:1.6;
+  padding: 0 10px;
+
+}
+p{
+  font-weight:lighter;
+  font-size:18px;
+}
+
+.rates {
+  text-align:center;
+  color:#393939;
+  margin-top:0px;
+  background-color:#ECEDED;
+  font-weight:lighter;
+  font-size:30px;
+}
+
+
+
+
+
+ #footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height: 280px;
+  width:100%;
+  background-color:#3A3A3A;
+  text-align:center;
+  }
+  .pict {
+    margin-top:7px;
+  }
+  #footer h4 {
+    text-align:center;
+    color:white;
+    font-weight:lighter;
+    margin-top:10px;
+  }
+  #footer nav {
+    margin-top:25px;
+    font-size:20px;
+    color: white;
+  }
+  .foot {
+  margin-top:25px;
+  color:white;
+  font-weight:lighter;
+  font-size:15px;
+  }
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:visited {
+color: white;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: white;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active {
+color: white;
+background-color: transparent;
+text-decoration: underline;
+}
