@@ -17,7 +17,7 @@ body {
   font-family: Sans-Serif;
 }
 .header {
-  background-color: #30B7D6;
+  background-color: #006D8F;
   width:100%;
   height:200px;
   display:inline-block;
@@ -60,6 +60,10 @@ body {
   padding-top:13px;
   padding-right: 20px;
   font-weight:bold;
+}
+.nav a{
+  padding:0.5rem;
+  margin:0.5rem;
 }
 
 a:link {
@@ -116,7 +120,7 @@ img {
 }
 .text {
   float:left;
-  color:#009cbd;
+  color:#006D8F;
   font-size:20px;
   margin-top:35px;
   margin-left:200px;
@@ -138,7 +142,7 @@ img {
 }
 .quote {
   float:left;
-  color:#01bedb;
+  color:#006D8F;
   font-size:20px;
   margin-top:50px;
   margin-left:200px;
@@ -199,11 +203,15 @@ text-align:center;
   margin-top:10px;
 }
 #footer nav {
-  margin-top:25px;
-  font-size:20px;
+  margin-top:20px;
+  font-size:18px;
+  font-weight:normal;
+  margin:0.5rem;
+  padding:0.5rem;
+  margin-left:450px;
 }
 .foot {
-margin-top:25px;
+margin-top:80px;
 color:white;
 font-weight:lighter;
 font-size:15px;
